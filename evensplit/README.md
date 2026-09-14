@@ -19,7 +19,7 @@ npm run dev
 ```bash
 cd backend
 uv sync
-uv run fastapi dev app/main.py
+uv run uvicorn app.main:app --reload
 ```
 
 ## Tests
